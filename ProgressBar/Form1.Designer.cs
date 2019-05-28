@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pbStatus = new System.Windows.Forms.ProgressBar();
             this.btnRun = new System.Windows.Forms.Button();
             this.btnEnd = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.lblStatus = new System.Windows.Forms.Label();
+            this.Timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // pbStatus
@@ -107,6 +109,7 @@
         private System.Windows.Forms.Button btnEnd;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Label lblStatus;
+        private System.Windows.Forms.Timer Timer;
     }
 }
 
